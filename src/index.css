@@ -1,0 +1,68 @@
+/**
+ * Global styles — start here when theming the whole site.
+ * Tip for beginners: keep colors in CSS variables so one change updates everywhere.
+ */
+:root {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #e2e8f0;
+  background-color: #0b1220;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+
+  --bg: #0b1220;
+  --panel: #111827;
+  --panel-2: #1e293b;
+  --text: #e2e8f0;
+  --muted: #94a3b8;
+  --accent: #7c9cff;
+  --accent-2: #5b6fd6;
+  --border: #334155;
+  --radius: 14px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: radial-gradient(1200px 600px at 10% -10%, #1a2744 0%, transparent 55%),
+    radial-gradient(900px 500px at 90% 0%, #1e1b4b 0%, transparent 50%),
+    var(--bg);
+  color: var(--text);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+  margin: 0 0 0.6rem;
+}
+
+p {
+  margin: 0 0 0.75rem;
+}
+
+#root {
+  min-height: 100vh;
+}
