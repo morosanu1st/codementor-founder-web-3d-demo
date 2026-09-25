@@ -1,8 +1,8 @@
-# Codementor demo · Web + 3D avatar mentoring for Hilina
+# Codementor demo · Web + 3D avatar mentoring
 
-**Who this is for:** Hilina Bahre — beginner founder (Pacific Time) who wants long-term tutoring to **understand and improve an AI / vibe-coded website**, then grow into a **3D avatar system** (JS / React / web + Three.js / WebGL).
+**Who this is for:** A beginner founder who wants long-term tutoring to **understand and improve an AI / vibe-coded website**, then grow into a **3D avatar system** (JS / React / web + Three.js / WebGL).
 
-This small public demo is a teaching sample. It shows how Mihai would mentor hands-on: clean structure a beginner can read, a simple landing shell (“rebuild your site with understanding”), and a minimal rotatable 3D avatar stub that proves the path toward your avatar goal — not a finished product.
+This small public demo is a teaching sample. It shows how Mihai would mentor hands-on: clean structure a beginner can read, a simple landing shell (“rebuild your site with understanding”), and a minimal rotatable 3D avatar stub that proves the path toward an avatar goal — not a finished product.
 
 ---
 
@@ -20,7 +20,7 @@ This small public demo is a teaching sample. It shows how Mihai would mentor han
 4. **Grow into a Three.js / WebGL avatar**  
    Start from the geometric head in this demo (lights, camera, mesh, orbit). Next: real `.glb` models, then simple interaction on your site.
 
-**Suggested rhythm:** ~9 hrs/week for ~24 weeks at your rate — foundations first, then avatar depth. Sessions scheduled for Pacific Time.
+**Suggested rhythm:** ~9 hrs/week for ~24 weeks at your rate — foundations first, then avatar depth.
 
 ---
 
@@ -60,9 +60,9 @@ npm run preview
 
 ## Codementor offer note
 
-Repo for Hilina’s long-term founding/tutoring request: clean React landing shell + rotatable Three.js avatar stub, with teaching comments throughout. Ready to use as the live demo link in the Codementor offer.
+Teaching sample for long-term JS/React/Three.js mentoring: clean React landing shell + rotatable Three.js avatar stub, with teaching comments throughout.
 
-**Public repo:** https://github.com/morosanu1st/codementor-hilina-founder-web-3d
+**Public repo:** https://github.com/morosanu1st/codementor-founder-web-3d-demo
 
 ---
 
